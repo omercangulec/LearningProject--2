@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #eaedf2;
+}
+
+.container {
+  max-width: 600px;
+  margin: 150px auto;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/********************************/
+/* Section-1 */
+.section-1 {
+  grid-column: 1 / -1;
+  background-color: #fff;
+  padding: 4rem 3rem;
+}
+
+.section-1--primary-heading {
+  font-size: 3rem;
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 1.8rem;
+}
+
+.section-1--secondary-heading {
+  font-size: 2rem;
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 1.2rem;
+}
+
+.section-1--article {
+  font-size: 1.4rem;
+  color: hsl(218, 22%, 67%);
+}
+
+/********************************/
+/* Section-2 */
+.section-2 {
+  background-color: hsl(179, 62%, 43%);
+  padding: 4rem 3rem;
+  color: #fff;
+}
+
+.section-2--heading {
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 3.2rem;
+}
+
+.price-box span {
+  font-size: 1.2rem;
+  color: #f1f3f5;
+  font-weight: 400;
+}
+
+.price-description {
+  font-size: 1.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.btn {
+  border: none;
+  background-color: hsl(71, 73%, 54%);
+  color: #fff;
+  padding: 1.2rem 8rem;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  font-family: inherit;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: hsl(71, 73%, 54%);
+}
+
+/********************************/
+/* Section-3 */
+.section-3 {
+  background-color: hsl(179, 47%, 60%);
+  color: #fff;
+  padding: 4rem 3rem;
+}
+
+.section-3--heading {
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+}
+
+.items li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+  color: #f1f3f5;
+  font-size: 1.2rem;
+}
+
+.items li:last-child {
+  margin-bottom: 0;
+}
